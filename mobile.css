@@ -1,12 +1,10 @@
-
-
 #showcase .nav {
     padding: 0rem 0rem;
-  }
+}
 
- #showcase .nav ul {
-     flex-direction: column;
-    justify-content: center;   
+#showcase .nav ul {
+    flex-direction: column;
+    justify-content: center;
 }
 
 #showcase .nav ul li {
@@ -24,13 +22,13 @@
     height: 50vh;
 }
 
-#showcase .header-section  h1 {
+#showcase .header-section h1 {
     font-size: 2rem;
 }
 
 #showcase::before {
     align-items: center;
-  
+
 }
 
 /*section-1 start */
@@ -48,20 +46,20 @@
 #showcase-1 .main h1 {
     font-size: 2rem;
     text-align: center;
-  
+
 }
 
 #showcase-1 .about h3 {
     font-size: 1.5rem;
     padding: 3rem 0rem 0rem;
     text-align: center;
-   
+
 }
 
 #showcase-1 .about p {
     font-size: 1rem;
-    padding-right: 0rem; 
-    text-align: center; 
+    padding-right: 0rem;
+    text-align: center;
     padding: 2rem;
 
 }
@@ -69,19 +67,19 @@
 #showcase-1 .about-img img {
     width: 250px;
     height: 250px;
-   
- }
+
+}
 
 /*section-1 End */
 
- /*section-2 start */
- #showcase-2  {
+/*section-2 start */
+#showcase-2 {
     padding: 3rem 0;
     clip-path: unset;
     background: url(./img/3.gif) no-repeat center center/cover;
- }
+}
 
- #showcase-2 .technologies {
+#showcase-2 .technologies {
     flex-direction: column;
     grid-template-columns: 1fr;
     justify-content: space-between;
@@ -89,8 +87,8 @@
 }
 
 #showcase-2 .main-2 h1 {
-    font-size: 1.5rem;  
-    text-align: center;  
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 #showcase-2 .use h2 {
@@ -99,24 +97,29 @@
 
 }
 
-  /*section-2 End */
+/*section-2 End */
 
-  /*some-projects-start  */
+/*some-projects-start  */
 
-  #some-projects .items {
-     flex-direction: column;
+#some-projects .items {
+    flex-direction: column;
     grid-template-columns: 1fr;
+
+}
+
+.item {
+    height: 100%;
 
 }
 
 #some-projects .some h2 {
     font-size: 2rem;
-    text-align: center; 
+    text-align: center;
 }
 
 #some-projects .img-info img {
-    height:250px;
-    width:300px;
+    height: 250px;
+    width: 300px;
     text-align: center;
 }
 
@@ -125,18 +128,18 @@
 /*some-projects-End  */
 
 
- /*section-contact-start */
- 
- #section-contact .contact-page h2 {
+/*section-contact-start */
+
+#section-contact .contact-page h2 {
     font-size: 2rem;
     text-align: center;
     padding: 3rem 0rem;
 }
 
-#section-contact  .about-contact {
-     flex-direction: column;
-     grid-template-columns: 1fr ;
-     text-align: center;
+#section-contact .about-contact {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    text-align: center;
 }
 
 #section-contact .contact-img img {
@@ -144,15 +147,15 @@
     height: 300px;
 }
 
-#section-contact .button  input {
+#section-contact .button input {
     height: 45px;
     width: 80%;
-   
- }
 
- #section-contact .button  textarea {
+}
+
+#section-contact .button textarea {
     width: 80%;
-    height: 100px;  
+    height: 100px;
     margin-bottom: 0.5rem;
 }
 
@@ -166,7 +169,7 @@
     border-radius: 5px;
     transition: 2s;
 }
- 
+
 /*section-contact-end  */
 
 
@@ -175,21 +178,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   }
+}
 
-   #section-footer .footer-1 a {
+#section-footer .footer-1 a {
     padding: 0.8rem;
- }
+}
 
-   #section-footer .footer-info {
+#section-footer .footer-info {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
- 
-
-
-
-   
- 

@@ -1,40 +1,45 @@
-
- #showcase .nav ul li {
+#showcase .nav ul li {
     margin-left: 1rem;
 }
+
 
 /*section-1 start */
 
 #showcase-1 .about-img img {
     width: 300px;
     height: 300px;
-   
- }
+}
 
- #showcase-1 .py-1 {
+#showcase-1 .py-1 {
     flex-direction: column;
     grid-template-columns: 1fr;
     align-items: center;
 }
 
 
- #showcase-1 .about h3 {
+#showcase-1 .about h3 {
     font-size: 1.5rem;
     padding: 3rem 0rem 0rem;
     text-align: center;
-   
+
 }
 
 #showcase-1 .main h1 {
     font-size: 2rem;
     text-align: center;
-  
+
 }
 
- #showcase-1 .about p {
+
+.item {
+    height: 100%;
+    max-width: 100%;
+}
+
+#showcase-1 .about p {
     font-size: 1rem;
-    padding-right: 0rem; 
-    text-align: center; 
+    padding-right: 0rem;
+    text-align: center;
     padding: 2rem;
 
 }
@@ -44,21 +49,22 @@
 
 #showcase-2 .technologies {
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
     margin-bottom: 3rem;
-  
+
 }
 
- /*some-projects-start  */
+/*some-projects-start  */
 
- #some-projects .items {
-    display:grid;
-   grid-template-columns: 1fr 1fr;
+#some-projects .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
 #some-projects .img-info img {
-    height:250px;
-    width:300px;
+    height: 100%;
+    width: 100%;
     text-align: center;
 }
 
